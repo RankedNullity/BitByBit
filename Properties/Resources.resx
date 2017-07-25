@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Armor_Heavy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Armor_Heavy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Armor_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Armor_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Armor_Med" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Armor_Med.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Button_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_HighScore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Button_HighScore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_LevelUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Button_LevelUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Quit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Button_Quit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Button_Start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Claymore_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Claymore_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Claymore_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Claymore_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Claymore_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\ClayMore_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dagger_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Dagger_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EnemyProjectile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\EnemyProjectile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Projectile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Projectile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen_Cave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Screen_Cave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen_Highscore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Screen_Highscore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen_InventoryMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Screen_InventoryMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen_LevelUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\SCREEN_LEVELUP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen_Shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Screen_Shop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen_StartMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Screen_StartMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Spear_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Spear_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Spear_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Spear_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Spear_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spear_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Attack\Spear_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite_ItemDrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Sprite_ItemDrop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weapon_Avg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Weapon_Avg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weapon_Heavy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Weapon_Heavy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Weapon_Narrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Weapon_Narrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealthBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\HealthBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Left_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Left_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Left_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Left_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Left_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Left_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Left_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Left_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Left_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Left_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Left_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Left_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Left_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Right_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Right_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Right_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Right_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Right_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Right_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Right_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Right_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Right_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Right_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Right_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Right_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Right_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\Enemy_Right_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_down_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Down_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_down_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Down_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_down_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Down_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_down_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Down_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_down_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_up_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_down_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Down_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_down_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Down_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_down_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Down_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_down_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Down_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_down_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_up_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Up_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_up_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Up_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_up_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Up_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_up_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Up_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\light_up_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Down_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\med_down_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Down_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\med_down_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Down_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\med_down_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Down_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\med_down_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Down_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\med_down_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Down_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\med_down_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Up_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\med_up_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Up_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\med_up_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wumpus_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\wumpus_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wumpus_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\wumpus_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen_GameOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Screen_GameOver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shooter_Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Shooter_Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shooter_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Shooter_Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shooter_Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Shooter_Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shootrer_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\Shootrer_Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Quit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Button_Quit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Restart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Button_Restart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Up_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\animations\playeranimations\heavy_up_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Med_Up_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Animations\PlayerAnimations\Med_Up_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Relics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Relics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Equip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Button_Equip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cave_Music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Sounds\Cave_Music.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Sounds\Item.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Menu_Music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Sounds\Menu_Music.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Screen_Trivia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Screen_Trivia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Sounds\Stab.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Swipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Sounds\Swipe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Throw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Sounds\Throw.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Levelup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\sounds\levelup.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\InvSprites\Empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

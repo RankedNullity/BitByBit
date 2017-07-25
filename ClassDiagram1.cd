@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BitByBit.Animation" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAAAAAAAAABAAACEAAAAEAAIAAAAEAAAAA=</HashCode>
+      <FileName>Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Cave" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAACAAAAAAAACAAAAAAAAAgQgAAAEAAA=</HashCode>
+      <FileName>Cave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.DaggerAnimations" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DaggerAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Game" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAABAgACAIRQCAEYBCCoQABoEEAAARAABJCRAjEEA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.GraphicsEngine" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Graphics Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.InCaveScreen" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIAAACCCAAAAAAAKgIggCAAIAIQAIIkAAAgACAgA=</HashCode>
+      <FileName>InCaveScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Inventory" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCggAAAAQAAAAAAQAQwAAAREgEEIAGCCrAAgABIAAAQ=</HashCode>
+      <FileName>Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.InventoryScreen" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEMhBBgCAAAVgDAACAQAQGAQEYAAAJQGAkAIBAIAA=</HashCode>
+      <FileName>InventoryScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.LevelupScreen" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABQCIAAAAAAACCCgASAAAAAAAgEAAAQgREACE=</HashCode>
+      <FileName>LevelupScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.MainMenu" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQBACAAABAAAECIhABCAAAAAAAIAAYAAABAAAA=</HashCode>
+      <FileName>MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Program" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.TempBox" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TempBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.AttackingCharacter">
+    <Position X="5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\AttackingCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.BaseCharacter">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BitByBit.Entities.BaseCharacter.StatTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\BaseCharacter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAAAACABAAACAAAAAAAAAQAIABAAAABAAAAAAAAIIA=</HashCode>
+      <FileName>Entities\BaseCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.Entity">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.Player">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAiIAAAQACAAAECgAAAACAAAAAACAEQABAAAAAAA=</HashCode>
+      <FileName>Entities\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.Projectile">
+    <Position X="10.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAMCAAAAAAAgAAAAAAAAQAAAAAACAAQAEAABAAAA=</HashCode>
+      <FileName>Entities\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.SeekerEnemy">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACAAAwAAAAAAAAAAAAAAAAAAAAABAAAACAAAAA=</HashCode>
+      <FileName>Entities\SeekerEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.ShooterEnemy">
+    <Position X="7.25" Y="9.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEKAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\ShooterEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.ShopKeeper" Collapsed="true">
+    <Position X="9.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\ShopKeeper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Entities.Wumpus">
+    <Position X="7.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Wumpus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Items.Armor" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAgAAAAgAAgAAAAAAAAEAAQAAA=</HashCode>
+      <FileName>Items\Armor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Items.EquipableItem" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\EquipableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Items.Item" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAEAAAAAAQEgAAAQAABAQAAAAAAIAA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Items.Potion" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABCAAAAAAAAAgAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Items\Potion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Items.Relic" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Relic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Items.Weapon" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAkAAABAABAAAAAEAAAAAQAJgAAAAAAAAMAAAEMAAAA=</HashCode>
+      <FileName>Items\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Properties.Resources" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIIAAMCISyCASADYCIYpEgAlkSH7/4dfAfeAIYghKIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitByBit.Properties.Settings" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BitByBit.CollisionBox">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAAAAAAQAUAAAAAAgAAAAEAAAAABgAAAAAAA=</HashCode>
+      <FileName>CollisionBox.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BitByBit.HighScore" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Highscore.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BitByBit.Room" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAAAAAAAAAAAAAIAAAAIAACAAAAAAACAAA=</HashCode>
+      <FileName>Room.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

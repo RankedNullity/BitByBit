@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4985D309-E78F-4D97-8025-9E24BF556888}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BitByBit</RootNamespace>
+    <AssemblyName>BitByBit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation.cs" />
+    <Compile Include="Cave.cs" />
+    <Compile Include="CollisionBox.cs" />
+    <Compile Include="Entities\BaseCharacter.cs" />
+    <Compile Include="Entities\AttackingCharacter.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\Projectile.cs" />
+    <Compile Include="Entities\SeekerEnemy.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\ShooterEnemy.cs" />
+    <Compile Include="Entities\ShopKeeper.cs" />
+    <Compile Include="Entities\Wumpus.cs" />
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InCaveScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InCaveScreen.Designer.cs">
+      <DependentUpon>InCaveScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryScreen.Designer.cs">
+      <DependentUpon>InventoryScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelupScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelupScreen.Designer.cs">
+      <DependentUpon>LevelupScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.cs" />
+    <Compile Include="Items\Armor.cs" />
+    <Compile Include="Items\EquipableItem.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\Potion.cs" />
+    <Compile Include="Items\Relic.cs" />
+    <Compile Include="Items\Weapon.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Room.cs" />
+    <Compile Include="Sound.cs" />
+    <Compile Include="TempBox.cs" />
+    <Compile Include="TriviaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TriviaMenu.Designer.cs">
+      <DependentUpon>TriviaMenu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InCaveScreen.resx">
+      <DependentUpon>InCaveScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryScreen.resx">
+      <DependentUpon>InventoryScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelupScreen.resx">
+      <DependentUpon>LevelupScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TriviaMenu.resx">
+      <DependentUpon>TriviaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Projectile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Potion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Armor_Heavy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Armor_Light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Armor_Med.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Weapon_Avg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Weapon_Heavy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Weapon_Narrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Screen_LevelUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button_LevelUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Screen_InventoryMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Screen_Cave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Screen_Shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Screen_StartMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button_HighScore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button_Quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button_Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\HealthBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sprite_ItemDrop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Screen_Highscore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Claymore_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Claymore_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\ClayMore_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Dagger_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\EnemyProjectile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Spear_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Spear_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Spear_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Spear_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Spear_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Attack\Spear_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Down_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Down_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Down_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Down_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Down_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Up_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Down_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Down_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Down_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Down_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Down_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Up_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Up_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Up_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Up_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Light_Up_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Down_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Down_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Down_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Down_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Down_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_left_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Wumpus_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_left_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_left_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_left_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_left_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_left_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_left_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_right_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_right_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_right_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_right_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_right_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_right_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\enemy_right_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Wumpus_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Screen_GameOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Up_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Up_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Shootrer_Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Shooter_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Shooter_Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\Shooter_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button_Restart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button_Quit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Heavy_Up_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Animations\PlayerAnimations\Med_Up_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Relics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Screen_Trivia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Button_Equip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sounds\Cave_Music.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sounds\Throw.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sounds\Levelup.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sounds\Menu_Music.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sounds\Item.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sounds\Stab.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sounds\Swipe.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\InvSprites\Empty.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
